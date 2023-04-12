@@ -6,6 +6,6 @@ This repo realizes two ORB extractors, one depends on OpenCV; the other is made 
 # How to run?
 After you have built the project, you can run the following command to see the matching results.
 ```bash
-rosrun orb_extract orb_self src/orb_extract/img/1.png src/orb_extract/img/2.png
-rosrun orb_extract orb_opencv src/orb_extract/img/1.png src/orb_extract/img/2.png
+rosrun orb_extract orb_self 1.png 2.png
+rosrun orb_extract orb_opencv 1.png 2.png
 ```
